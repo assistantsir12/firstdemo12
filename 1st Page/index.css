@@ -1,0 +1,899 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&display=swap" rel="stylesheet');
+
+body {
+    font-family: "EB Garamond", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.head .lg {
+    text-align: center;
+}
+
+.lg img {
+    width: 550px;
+    height: 280px;
+}
+
+.head .inform {
+    text-align: center;
+    margin-top: -70px;
+    font-weight: 500;
+}
+
+.head .inform p {
+    color: #333;
+    font-size: 11px;
+    margin: 0;
+    margin-left: 130px;
+    line-height: 1.2;
+}
+
+.galley {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+    background-color: #fff;
+}
+
+.galley img {
+    width: 100%;
+    height: auto;
+}
+
+.wave-image {
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+    margin-left: 9px; 
+}
+
+
+.foot {
+    background: url('wave-design.png') no-repeat bottom center;
+    background-size: cover;
+    height: 100px;
+}
+
+.pu-order h1{
+    text-align: center;
+    color:grey;
+    
+}
+
+
+
+.header {
+    position: relative; 
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.po-details {
+    padding-right: 170px; 
+    margin-left: 20px;
+}
+
+.logo-container {
+    position: absolute; 
+    top: 0;
+    right: 0; 
+}
+
+.sec-logo-container{
+    position: absolute; 
+    margin-top:-110px;
+    right:0;
+    margin-right:27px;
+}
+
+
+.content p {
+    margin: 10px 0;
+    margin-left: 30px;    
+}
+
+
+.content .address {
+    text-align: left;    
+    margin-left: 50px;
+}
+
+
+
+ul {
+    list-style-type: number;
+    margin-left: 20px;
+}
+
+
+
+ul li {
+    margin: 5px 0;
+}
+
+
+
+
+
+.footer {
+    margin-top: 50px;
+    padding: 10px 40px;
+    text-align: center;
+    border-top: 2px solid #ddd;
+    position: relative;
+}
+
+
+.signature-section {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+
+.footer-logo {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}            
+
+
+
+.signature {
+    font-size: 22px;
+    color: #b22b2b;
+    font-weight: normal;
+    display: inline-block;
+}
+
+
+
+.authorized-signatory {
+    font-size: 14px;
+    color: #000;
+    display: block;
+    margin-top: 5px;
+    font-weight: normal;
+    
+}
+
+
+
+.footer-note {
+    background-color: #ffda44;
+    padding: 0px 20px;
+    font-size: 10px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+} 
+
+
+
+.sec-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+.horizontal-line {
+    border-top: 3px solid #cec7c7; 
+    width: 100%;              
+    margin: 20px 0;            
+
+}
+
+.sec-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+.pur-order h1{
+    text-align: center;
+}
+
+
+.po-details p {
+    margin-bottom: -5px; 
+    margin-left: 10px;
+}
+
+
+.po-details p:last-child {
+    margin-bottom: 15px; 
+}
+
+
+
+
+
+h1 {
+    font-size: 34px;
+    color: #292626;
+}
+
+
+
+h2 {
+    font-size: 18px;
+    color: red;
+    margin-bottom: 10px;
+
+}
+
+
+
+.address-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+
+
+.billing-address {
+    margin: 20px;
+    line-height: 0.7; 
+}
+
+
+
+.shipping-address{
+    margin: 20px;
+    line-height: 1;
+}
+
+
+
+.purchase-order-section{
+    margin: 20px;
+    padding-top: 20px;
+    line-height: 1;
+}
+
+
+
+.bank-details{
+    padding-top: 2px;
+    margin: 20px;
+    line-height: 0.7;
+    position: relative;
+    top: -80px;
+}
+
+ 
+
+.billing-address, .shipping-address, .purchase-order-section, .bank-details {
+    width: 48%;
+}
+
+
+
+.purchase-bank-section {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+
+.purchase-order-section {
+    margin-top: -120px; 
+}
+
+
+
+.pur-order h1{
+    text-align: center;
+}
+
+
+
+p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+
+
+strong {
+    color: black;
+}
+
+
+
+.bank-details {
+    margin-top: 20px;
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+
+.logo img {
+    width: 150px;
+}
+
+
+
+.purchase-order-container {
+    margin: 20px 0;
+    width: 100%;  
+    margin-left: 20px;
+}
+
+
+
+.purchase-order-table {
+    width:97%;
+    border-collapse: collapse;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+.purchase-order-table th {
+    background-color: #E74C3C;
+    color: white;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+
+.purchase-order-table td {   
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+
+
+.purchase-order-table .sn {
+    width: 40px;
+}
+
+
+
+.purchase-order-table .item {
+    width: 35%;
+}
+
+
+
+.purchase-order-table .make,
+.purchase-order-table .item,
+.purchase-order-table .gst,
+.purchase-order-table .hsn,
+.purchase-order-table .unit,
+.purchase-order-table .qty,
+.purchase-order-table .rate,
+.purchase-order-table .product-cost,
+.purchase-order-table .gst-amount {
+    text-align: center;
+}
+
+
+
+.purchase-order-table .total-row {
+    background-color: #ffff05;
+    font-weight: bold;
+}
+
+
+
+.purchase-order-table .total-label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+
+.purchase-order-table .total-cost,
+.purchase-order-table .total-gst {
+    text-align: right;
+    padding-right: 60px;
+}
+
+
+
+.purchase-order-table .additional-cost {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+
+.purchase-order-table tr.total-row {
+    background-color: #fdf5c4;
+}
+
+
+
+.purchase-order-table tr td:last-child {
+    font-weight: bold;
+}
+
+
+
+body, html {
+    margin: 0;               
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    padding: 20px;
+}
+
+.main header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+
+
+.header-left, .header-right {
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+
+
+.header-left p, .header-right p {
+    margin: 0;
+}
+
+
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.title h2 {
+    margin: 5px 0px;
+    font-size: 20px;
+    color: #ffdd00;
+    background-color: #333;
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding-top: 10px;
+}
+
+
+
+ .summary h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+} 
+
+
+
+.summary p {
+    margin-right: 10px;
+    font-size: 14px;    
+}
+
+
+
+.details {
+    margin: 20px 0;
+    font-size: 14px;
+    margin:0 10px 0 10px;
+}
+
+
+
+.main-content {
+    font-size: 14px;
+}
+
+
+
+.main-content ol {
+    list-style-position: outside;
+    margin-left: 20px;
+}
+  
+
+
+.main-content ol li {
+    margin-bottom: 15px;
+}
+
+
+
+.main-content ol li strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.main-content ol ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.main-content ol ol li {
+    margin-bottom: 10px;
+}
+
+
+
+.footer-not {
+    background-color: grey;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.sec header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+
+.Po-details p, .company-details p {
+    font-size: 14px;   
+}
+
+
+
+
+.company-details p{
+    margin: 20px;
+}
+
+
+.sec title {
+    text-align: center;
+}
+
+
+
+.sec title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.sec title h2 {
+    background-color: #FFD700;
+    padding: 20px 20px;
+    font-size: 14px;
+    color: rgb(255, 252, 252);
+    font-weight: normal;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+
+
+
+
+.terms {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+
+
+
+.terms p {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.terms ol {
+    margin-left: 20px;
+}
+
+
+
+
+
+.terms ol li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.terms ol ol {
+    margin-left: 20px;
+    list-style-type: lower-alpha;
+}
+
+
+
+
+
+.terms ol ol li {
+    margin-bottom: 8px;
+}
+
+
+
+
+
+.cont {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
+.sidebar {
+    background-color: #fcb017;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+
+
+
+
+.sidebar h1 {
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
+.mains-content {
+    width: 80%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+.thank-you-section {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;    
+}
+
+
+
+
+
+
+
+.handshake-logo img {
+    margin-left: 980px;
+    width: 100px;
+    height: auto;
+}
+
+
+
+
+
+
+
+.thank-you-text {
+    margin-left: 1000px;
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+
+
+
+
+
+.thank-you-text h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+
+
+
+
+
+.thank-you-text p {
+    font-size: 1.2rem;
+    color: #fcb017;
+    font-style: italic;    
+}
+
+
+
+
+
+
+.gallery {
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.gallery img {
+    width: 25%;
+    height: auto;
+}
+
+
+
+
+
+
+.contact-infor {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.info-item {
+    display: flex;
+    align-items: center;    
+}
+
+
+
+
+
+
+.icon {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: rgb(255, 140, 0);
+}
+
+
+
+
+
+
+.info-item p {
+    font-size: 1.1rem;
+}
+
+
+
+
+
+.icon {
+    font-size: 2rem;
+    margin-right: 10px;   
+}
+
+
+
+
+
+.info-item p {
+    font-size: 1.1rem;    
+} 
+
+
+
+
+
+/*
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
